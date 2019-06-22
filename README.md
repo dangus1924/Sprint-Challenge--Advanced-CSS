@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    A fully responsive website apperance will remain the same in any browser r screen size, it is alson more smooth in the transition of the screen size, whereas the adaptive will pop into size. An adaptive website has specific breakpoints at which it will change its appereance.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you are designing the website based off mobile specifications first, then using min-width media queries to design the tablet and the desktop versions afterwards. Desktop first is the vise versa of the mobile first. The only difference is that you are then using max-width media queries to design the tablet and mobile versions afterwards.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The 62.5% in `html` tag makes it so that the 1rem = 10px, this helps make the responsive webiste adapt better with the percentage.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows you to do non-CSS things to make it easier to write, read, and navigate throught your css, which is then compiled for youo into an actual CSS file. It also makes it more easier for you to organize with each less file such as Navigation, Home-Page, Global, and much more.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is nesting, Before knowing of nesting and doing the porfolio website project the css file was kind of intimidating, but now that I know of the nesting features it makes coding so much easier. The one concept that gave me the most trouble was the mixins. In order for me to fully grasp mimxins I had to watch the video more than four times.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,9 +60,9 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [xhttps://github.com/dangus1924/Sprint-Challenge--Advanced-CSS.git] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
