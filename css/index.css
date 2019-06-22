@@ -326,6 +326,9 @@ footer {
   color: white;
   font-size: 2rem;
   border: 1px solid #22283A;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   border-radius: 6px;
 }
 .home .walk .walk-text .btn:hover {
@@ -333,7 +336,7 @@ footer {
   color: #22283A;
   background-color: white;
   animation-name: pulsate;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 @media (max-width: 500px) {
